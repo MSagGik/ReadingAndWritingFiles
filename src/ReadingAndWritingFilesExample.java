@@ -9,8 +9,7 @@ public class ReadingAndWritingFilesExample {
         try {
             // считывание файла
             Scanner sc = new Scanner(new File("resources/planet.txt"));
-            HashMap<String, Integer> popularPlanet = new HashMap<String, Integer>();
-            HashMap<String, Integer> bigPlanet = new HashMap<String, Integer>();
+            Map<String, Integer> popularPlanet = new HashMap<String, Integer>();
             int maxWeightPlanet = 0;
             String nameMaxWeightPlanet = null;
             while(sc.hasNext()) {
